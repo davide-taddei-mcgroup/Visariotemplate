@@ -795,6 +795,17 @@ padding-left: 90px;
 	font-size: 28px;
 }
 
+/* required fileds */
+label .red,
+label.required.invalid {
+	color: #ff0000;
+}
+
+input.required.invalid {
+	color: #ff0000;
+	border: 1px solid #ff0000;
+}
+
  /* Page Breaks
 -----------------------------------------------------------------------------------*/
 .article-index ul li a.active {

@@ -63,6 +63,10 @@ $doc->addStyleSheet(JURI::base() . 'templates/' . $this->template . '/css/custom
 <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/template-ie8.css" type="text/css" />
 <![endif]-->
 
+<!--[if IE 9]>
+<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/template-ie9.css" type="text/css" />
+<![endif]-->
+
 <!--[if lt IE 9]>
 <script src="<?php echo $this->baseurl ?>/media/jui/js/html5.js"></script>
 <![endif]-->
