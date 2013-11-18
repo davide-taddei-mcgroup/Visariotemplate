@@ -581,9 +581,7 @@ ul.social-icons li.icon_googleplus a:hover { background-position: -320px 0; }
 .svn-icons .flipper {
 	transform-style: preserve-3d;
 	position: relative;
-	-webkit-transition: 0.6s;
-	   -moz-transition: 0.6s;
-			transition: 0.6s;
+	transition: 0.6s;
 }
 
 .svn-icons .front, 

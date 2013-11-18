@@ -2,12 +2,12 @@
 <!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
 <extension version="3.0" type="template" client="site">
 	<name>Visario</name>
-	<version>1.2</version>
+	<version>1.0</version>
 	<creationDate>10/30/2012</creationDate>
 	<author>Tomasz Herudzinski 7Studio</author>
 	<authorEmail>info@7studio.eu</authorEmail>
 	<copyright>Copyright (C) 2008 - 2013 Tomasz Herudzinski 7Studio</copyright>
-	<description><![CDATA[ <h2 style="color:#000000;">Visario Template ver. 1.2</h2><p>Visario is a minimal, flexible, fully responsive template for Joomla! 3.X CMS, designed and developed by <a href="http://www.7studio.eu" target="_blank">7Studio</a>.</p><p> Available for purchase exclusively at <a href="http://themeforest.net/user/7Studio" target="_blank">ThemeForest</a>.</p><p>If you need help related to this Template, please contact us directly at <a href="http://themeforest.net/user/7Studio" target="_blank">ThemeForest</a></p>.]]>
+	<description><![CDATA[ <h2 style="color:#000000;">Visario Template ver. 1.1</h2><p>Visario is a minimal, flexible, fully responsive template for Joomla! 3.X CMS, designed and developed by <a href="http://www.7studio.eu" target="_blank">7Studio</a>.</p><p> Available for purchase exclusively at <a href="http://themeforest.net/user/7Studio" target="_blank">ThemeForest</a>.</p><p>If you need help related to this Template, please contact us directly at <a href="http://themeforest.net/user/7Studio" target="_blank">ThemeForest</a></p>.]]>
 	</description>
 	<files>
 		<filename>component.php</filename>
