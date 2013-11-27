@@ -51,11 +51,11 @@ require_once __DIR__ . '/lib/base.php';
 				</div>
 				
 			<?php endif; ?>
-
+<!--
 				<div class="logo pull-left">
 					<?php echo $logo; ?>
 				</div>
-
+-->
 				<button type="button" class="btn-navbar pull-right" data-toggle="collapse" data-target=".nav-collapse">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -69,29 +69,37 @@ require_once __DIR__ . '/lib/base.php';
 		
 	<?php if (($this->countModules('menu')) or ($login_button) or ($register_button)) : ?>
 	
-		<nav id="menu" class="clearfix">	
-			<div class="container-fluid">
-				<div class="nav-collapse collapse">
-					<jdoc:include type="modules" name="menu" style="basic" />
-				</div>
-				
-			<?php if (($login_button) or ($register_button)) : ?>
-			
-				<div id="user-toolbar">
-					<ul> 	
-					<?php if ($login_button) : ?>
-						<li><a href="#" class="login-btn"><?php echo htmlspecialchars($logintext); ?></a></li>
-					<?php endif; ?>	
-						
-					<?php if ($register_button) : ?>
-						<li><a href="<?php echo JRoute::_('index.php?option=com_users&view=registration'); ?>"><?php echo htmlspecialchars($registertext); ?></a></li>
-					<?php endif; ?>		
-					</ul>	
-				</div>
-				
-			<?php endif; ?>	
-					
-			</div>
+		<nav id="menu" class="clearfix">
+                    
+                            <div class="container-fluid">
+                                 <?php if (($login_button) or ($register_button)) : ?>
+
+                                    <div id="user-toolbar">
+                                            <ul> 	
+                                            <?php if ($login_button) : ?>
+                                                    <li><a href="#" class="login-btn"><?php echo htmlspecialchars($logintext); ?></a></li>
+                                            <?php endif; ?>	
+
+                                            <?php if ($register_button) : ?>
+                                                    <li><a href="<?php echo JRoute::_('index.php?option=com_users&view=registration'); ?>"><?php echo htmlspecialchars($registertext); ?></a></li>
+                                            <?php endif; ?>		
+                                            </ul>	
+                                    </div>
+
+                            <?php endif; ?>	
+                                <div class="row-fluid">
+                                    <div class="span3">
+                                        <div class="logo pull-left">
+                                                    <?php echo $logo; ?>
+                                            </div>
+                                    </div>
+                                    <div class="span9">
+                                    <div class="nav-collapse collapse">
+                                            <jdoc:include type="modules" name="menu" style="basic" />
+                                    </div>
+                                    </div>                                 
+                        </div>
+                    </div>
 		</nav>
 		
 	<?php endif; ?>
